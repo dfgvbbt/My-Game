@@ -1,5 +1,5 @@
 local List = {
-  [886957622] = true,
+  [886957622] = 'Admin',
 }
 
 return List
