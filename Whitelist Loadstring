@@ -1,3 +1,5 @@
-return {
+local List = {
   [1] = '',
 }
+
+return List
