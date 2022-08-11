@@ -1,0 +1,5 @@
+local function List_SS_Script(PlayerName)
+	print(PlayerName)
+end
+
+return List_SS_Script
