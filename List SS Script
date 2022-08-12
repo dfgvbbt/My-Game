@@ -1,31 +1,31 @@
 local function List_SS_Script(NameScript:string,PlayerName:string)
 	local ListScript = {
-		['Infinite-Yield-SS'] = 'require(4848156552)',
-		['Jetstream-Sam(R6)'] = 'require(0x238D47135)',
-		['Cubic-Magic(R6)'] = 'require(6583577614).load',
-		['Car-Gui'] = 'require(5130989214).load',
-		['Duo-Tree-Minecraft(R6)'] = 'require(4570617494).Dup',
-		['Sin-Dragon(R6)'] = 'require(4666468021).load',
-		['Vr-Fake'] = 'require(10137339218)',
-		['Noob-Stand(R6)'] = 'require(4797781776).load',
-		['ToolA'] = 'require(8552808102).thisbacon',
-		['ToolB'] = 'require(10286545277).RandomStuff',
-		['Pipe(R6)'] = 'require(4560063191).load',
+		['Infinite-Yield-SS'] = 'require(4848156552)(%q)',
+		['Jetstream-Sam(R6)'] = 'require(0x238D47135)(%q)',
+		['Cubic-Magic(R6)'] = 'require(6583577614).load(%q)',
+		['Car-Gui'] = 'require(5130989214).load(%q)',
+		['Duo-Tree-Minecraft(R6)'] = 'require(4570617494).Dup(%q)',
+		['Sin-Dragon(R6)'] = 'require(4666468021).load(%q)',
+		['Vr-Fake'] = 'require(10137339218)(%q)',
+		['Noob-Stand(R6)'] = 'require(4797781776).load(%q)',
+		['ToolA'] = 'require(8552808102).thisbacon(%q)',
+		['ToolB'] = 'require(10286545277).RandomStuff(%q)',
+		['Pipe(R6)'] = 'require(4560063191).load(%q)',
 	}
 	local All = {}
 
 	local LowerName = string.lower(NameScript)
 	for i,v in pairs(ListScript) do
 		if i == NameScript or string.lower(i) == string.lower(NameScript) then
-			print('Full Name!')
-			All[1] = {i,v..'("'..PlayerName..'")'}
+			print(string.format(v,PlayerName))
+			All[1] = {i,string.format(v,PlayerName)}
 			break
 		elseif string.sub(i,1,#NameScript)== NameScript or string.sub(string.lower(i),1,#LowerName) == LowerName then
-			All[#All+1] = {i,v..'("'..PlayerName..'")'}		
+			All[#All+1] = {i,string.format(v,PlayerName)}		
 		end
 	end
-	
-	
+
+
 
 	if #All >= 2  then
 		return 'Many'
