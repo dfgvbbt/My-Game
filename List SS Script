@@ -10,14 +10,20 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Noob-Stand'] = 'require(4797781776).load',
 	}
 	local All = {}
-	
+
 	local LowerName = string.lower(NameScript)
-	for i,v:string in pairs(ListScript) do
-		if string.sub(i,1,#NameScript)== NameScript or string.sub(string.lower(i),1,#LowerName) == LowerName then
-			All[#All+1] = {i,v..'("'..PlayerName..'")'}
+	for i,v in pairs(ListScript) do
+		if i == NameScript or string.lower(i) == string.lower(NameScript) then
+			print('Full Name!')
+			All[1] = {i,v..'("'..PlayerName..'")'}
+			break
+		elseif string.sub(i,1,#NameScript)== NameScript or string.sub(string.lower(i),1,#LowerName) == LowerName then
+			All[#All+1] = {i,v..'("'..PlayerName..'")'}		
 		end
 	end
 	
+	
+
 	if #All >= 2  then
 		return 'Many'
 	else
