@@ -10,7 +10,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Noob-Stand(R6)'] = 'require(4797781776).load',
 		['ToolA'] = 'require(8552808102).thisbacon',
 		['ToolB'] = 'require(10286545277).RandomStuff',
-		['Pipe'] = 'require(4560063191).load',
+		['Pipe(R6)'] = 'require(4560063191).load',
 	}
 	local All = {}
 
