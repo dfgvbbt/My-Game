@@ -6,7 +6,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Car-Gui'] = 'require(5130989214).load',
 		['Duo-Tree-Minecraft(R6)'] = 'require(4570617494).Dup',
 		['Sin-Dragon(R6)'] = 'require(4666468021).load',
-		['Fake-Vr'] = 'require(10137339218)',
+		['Vr-Fake'] = 'require(10137339218)',
 		['Noob-Stand'] = 'require(4797781776).load',
 	}
 	local All = {}
