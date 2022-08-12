@@ -4,7 +4,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Jetstream-Sam(R6)'] = 'require(0x238D47135)',
 		['Cubic-Magic(R6)'] = 'require(6583577614).load',
 		['Car-Gui'] = 'require(5130989214).load',
-		['Duo-Tree-Minecraft'] = 'require(4570617494).Dup',
+		['Duo-Tree-Minecraft(R6)'] = 'require(4570617494).Dup',
 	}
 	local All = {}
 	
