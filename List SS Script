@@ -1,8 +1,8 @@
 local function List_SS_Script(NameScript:string,PlayerName:string)
 	local ListScript = {
 		['Infinite-Yield-SS'] = 'require(4848156552)',
-		['Jetstream-Sam(r6)'] = 'require(0x238D47135)',
-		['Cubic-Magic'] = 'require(6583577614).load',
+		['Jetstream-Sam(R6)'] = 'require(0x238D47135)',
+		['Cubic-Magic(R6)'] = 'require(6583577614).load',
 	}
 	local All = {}
 	
