@@ -8,6 +8,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Sin-Dragon(R6)'] = 'require(4666468021).load',
 		['Vr-Fake'] = 'require(10137339218)',
 		['Noob-Stand'] = 'require(4797781776).load',
+		['Tool(1)'] = 'require(8552808102).thisbacon',
 	}
 	local All = {}
 
