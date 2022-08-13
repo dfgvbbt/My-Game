@@ -12,8 +12,10 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['ToolB'] = 'require(10286545277).RandomStuff(%q)',
 		['Pipe(R6)'] = 'require(4560063191).load(%q)',
 		['Casual-Neko[Cat-Girl](R6)'] = 'require(8687529873).sexygurl(%q, "DEBBYISCUTE")',
-		['Cerberus-Neko[Cat Girl](R6)'] = 'require(8789235779).Cerberus(%q)',
-		
+		['Cerberus-Neko[Cat Girl](R6)'] = {
+			['R6'] = true,
+			['Script'] = 'require(8789235779).Cerberus(%q)',
+		},
 	}
 	local All = {}
 
