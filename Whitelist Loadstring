@@ -1,6 +1,6 @@
 local List = {
-  [886957622] = 'Admin',
-  [279275308] = 'Acc Phụ :3',
+  ['dfgvbbt'] = 'Admin',
+  ['MichelleBallard9'] = 'Acc Phụ :3',
 }
 
 return List
