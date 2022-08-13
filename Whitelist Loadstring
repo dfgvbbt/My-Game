@@ -1,6 +1,7 @@
 local List = {
   ['dfgvbbt'] = 'Admin',
   ['MichelleBallard9'] = 'Acc Phụ :3',
+  ['AshleeSteele28'] = 'Acc Phụ Nhưng Tốt Hơn Xíu :3',
 }
 
 return List
