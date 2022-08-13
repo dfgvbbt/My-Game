@@ -1,29 +1,41 @@
 local function List_SS_Script(NameScript:string,PlayerName:string)
 	local ListScript = {
 		['Infinite-Yield-SS'] = 'require(4848156552)(%q)',
-		['Jetstream-Sam(R6)'] = 'require(0x238D47135)(%q)',
-		['Cubic-Magic(R6)'] = 'require(6583577614).load(%q)',
+		['Jetstream-Sam(R6)'] = {'R6','require(0x238D47135)(%q)'},
+		['Cubic-Magic(R6)'] = {'R6','require(6583577614).load(%q)'},
 		['Car-Gui'] = 'require(5130989214).load(%q)',
-		['Duo-Tree-Minecraft(R6)'] = 'require(4570617494).Dup(%q)',
-		['Sin-Dragon(R6)'] = 'require(4666468021).load(%q)',
+		['Duo-Tree-Minecraft(R6)'] = {'R6','require(4570617494).Dup(%q)'},
+		['Sin-Dragon(R6)'] = {'R6','require(4666468021).load(%q)'},
 		['Vr-Fake'] = 'require(10137339218)(%q)',
-		['Noob-Stand(R6)'] = 'require(4797781776).load(%q)',
+		['Noob-Stand(R6)'] = {'R6','require(4797781776).load(%q)'},
 		['ToolA'] = 'require(8552808102).thisbacon(%q)',
 		['ToolB'] = 'require(10286545277).RandomStuff(%q)',
-		['Pipe(R6)'] = 'require(4560063191).load(%q)',
-		['Casual-Neko[Cat-Girl](R6)'] = 'require(8687529873).sexygurl(%q, "DEBBYISCUTE")',
-		['Cerberus-Neko[Cat Girl](R6)'] = 'require(8789235779).Cerberus(%q)',
+		['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
+		['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")'},
 	}
 	local All = {}
-
+	
+	local function JustDo(i,v)
+		if type(v) ~= 'table' then
+			All[#All+1] = {i,string.format(v,PlayerName)}
+		else
+			if v[2] ~= nil then
+				All[#All+1] = {i,v[1],string.format(v[2],PlayerName)}
+			else
+				All[#All+1] = {i,string.format(v[1],PlayerName)}
+			end
+		end
+	end
+	
+	
 	local LowerName = string.lower(NameScript)
 	for i,v in pairs(ListScript) do
 		if i == NameScript or string.lower(i) == string.lower(NameScript) then
-			print(string.format(v,PlayerName))
-			All[1] = {i,string.format(v,PlayerName)}
+			print('Full Name!')
+			JustDo(i,v)
 			break
 		elseif string.sub(i,1,#NameScript)== NameScript or string.sub(string.lower(i),1,#LowerName) == LowerName then
-			All[#All+1] = {i,string.format(v,PlayerName)}		
+			JustDo(i,v)
 		end
 	end
 
