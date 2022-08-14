@@ -20,6 +20,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Fight-Mode'] = {'R6','require(6438401832).load(%q)'},
 		['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")'},
 		['Dacar'] = 'require(6732268744).dababy(%q)',
+		['Red-Army'] = 'require(5651194344).load(%q)',
 	}
 	local All = {}
 	
