@@ -16,6 +16,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Ban-Hammer(R6)'] = {'R6','require(5448035802).Hammer(%q,"BanHammer")'},
 		['Aiju-Trap-Rifle'] = {'R6','require(4696723878).TrapRifle(%q)'},
 		['Universe-Reset'] = 'require(6649537798).UniverseReset()',
+		['Magic-8ball'] = {'R6','require(6438191748).load(%q)'},
 	}
 	local All = {}
 	
