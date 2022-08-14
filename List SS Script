@@ -13,7 +13,8 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
 		['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")'},
 		['Sledgehammer(R6)'] = {'R6','require(8038037940).CLoad(%q)'},
-		['Ban-Hammer(R6)'] = {'R6','require(5448035802).Hammer("dfgvbbt","BanHammer")'},
+		['Ban-Hammer(R6)'] = {'R6','require(5448035802).Hammer(%q,"BanHammer")'},
+		['Aiju-Trap-Rifle'] = {'R6','require(4696723878).TrapRifle(%q)'},
 	}
 	local All = {}
 	
