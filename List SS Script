@@ -18,6 +18,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Universe-Reset'] = 'require(6649537798).UniverseReset()',
 		['Magic-8ball'] = {'R6','require(6438191748).load(%q)'},
 		['Fight-Mode'] = {'R6','require(6438401832).load(%q)'},
+		['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")'},
 	}
 	local All = {}
 	
