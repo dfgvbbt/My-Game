@@ -24,7 +24,8 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Stand'] = {'require(4902600443)("TW" ,%q)',Desc = 'Im Not Good About Dio Or Something ;-;'},
 		['Comedic-Chaos'] = {'R6','require(8837899654).load(%q)',Desc = 'Very Funny :D'},
 		['Time-Reverse'] = {'require(6525681614).reverser(%q)',Desc = 'Epikkkkkk,Hold Key F To Reversing!'},
-		['Crawl'] = {'R6','require(7972019185).CLoad(%q)',Desc = 'This Make You Like A Baby :3'},
+		['Crawl'] = {'R6','require(7972019185).CLoad(%q)',Desc = 'This Make You Like A Cute Baby :3'},
+		['Space-Rocket'] = {'require(8061986472)(%q)',Desc = 'Let's go to the sky, no... SPACE :D'},
 	}
 	if NameScript ~= '|list' then
 		local All = {}
