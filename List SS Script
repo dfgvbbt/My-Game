@@ -27,6 +27,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Crawl'] = {'R6','require(7972019185).CLoad(%q)',Desc = 'This Make You Like A Cute Baby :3'},
 		['Space-Rocket'] = {'require(8061986472)(%q)',Desc = "Let's go to the sky, no... SPACE :D"},
 		['Nature-Map'] = 'require(6877548743)(false)',
+		['Backrooms-Kidnap'] = 'require(9263079367)(%q)',
 	}
 	if NameScript ~= '|list' then
 		local All = {}
