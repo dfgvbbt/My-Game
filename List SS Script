@@ -22,7 +22,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Dacar'] = {'require(6732268744).dababy(%q)',Desc = 'Les goooooooo'},
 		['Red-Army'] = {'R6','require(5651194344).load(%q)',Desc = 'Less Fight :D'},
 		['Stand'] = {'require(4902600443)("TW" ,%q)',Desc = 'Im Not Good About Dio Or Something ;-;'},
-		['Comedic-Chaos'] = {'require(8837899654).load(%q)',Desc = 'Very Funny :D'}.
+		['Comedic-Chaos'] = {'require(8837899654).load(%q)',Desc = 'Very Funny :D'},
 	}
 	if NameScript ~= '|list' then
 		local All = {}
