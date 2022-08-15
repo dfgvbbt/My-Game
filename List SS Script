@@ -63,7 +63,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 					ListForList[i] = {string.format(v[1] or v,'•Username'),v['Desc']}
 				else
 					print(i)
-					ListForList[i] = {string.format(v[1] or v,'•Username'),'No Description :('}
+					ListForList[i] = {string.format(v[1] or v,'•Username'),' Has No Description :('}
 				end
 				
 			else
@@ -72,7 +72,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 					ListForList[i] = {string.format(v[2],'•Username'),v['Desc']}
 				else
 					print(i)
-					ListForList[i] = {string.format(v[2],'•Username'),'No Description :('}
+					ListForList[i] = {string.format(v[2],'•Username'),'Has No Description :('}
 				end
 			end
 		end
