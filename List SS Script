@@ -10,7 +10,7 @@ local ListScript = {
 	['Noob-Stand(R6)'] = {'R6','require(4797781776).load(%q)'},
 	['ToolA'] = {'require(8552808102).thisbacon(%q)',Desc = 'Oh Hi :3'},
 	['ToolB'] = {'require(10286545277).RandomStuff(%q)',Desc = 'Like Tool A But Might Less'},
-	['ToolC'] = {'require(10608863478)(%q)'},
+	['ToolC'] = {'require(10608863478)(%q)',Desc = 'Like Tool B But Less And Have Gui :D'},
 	['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
 	['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")',Desc = ':3'},
 	['Sledgehammer(R6)'] = {'R6','require(8038037940).CLoad(%q)',Desc = 'Lets Break The Map And Device :D'},
@@ -31,6 +31,7 @@ local ListScript = {
 	['Backrooms-Kidnap'] = 'require(9263079367)(%q)',
 	['GC-hub-car-gui'] = {'require(8176047306):Cars(%q)',Desc = "The Name Say it's all :)"},
 	['Nuke-Gui'] = 'require(7804327506).amigodogodenot123(%q)',
+	['Hallowen-Night'] = {'require(7637655077).SpookyMonth(%q)',Desc = 'It Will Change The Map And You Need To Find The Keys'},
 }
 
 
