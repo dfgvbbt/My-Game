@@ -10,6 +10,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['Noob-Stand(R6)'] = {'R6','require(4797781776).load(%q)'},
 		['ToolA'] = {'require(8552808102).thisbacon(%q)',Desc = 'Oh Hi :3'},
 		['ToolB'] = {'require(10286545277).RandomStuff(%q)',Desc = 'Like Tool A But Might Less'},
+		['ToolC'] = {'require(10608863478)(%q)'},
 		['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
 		['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")',Desc = ':3'},
 		['Sledgehammer(R6)'] = {'R6','require(8038037940).CLoad(%q)',Desc = 'Lets Break The Map And Device :D'},
