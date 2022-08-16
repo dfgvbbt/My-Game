@@ -32,6 +32,8 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		['GC-hub-car-gui'] = {'require(8176047306):Cars(%q)',Desc = "The Name Say it's all :)"},
 		['Nuke-Gui'] = 'require(7804327506).amigodogodenot123(%q)',
 	}
+	
+	-- Script
 	if NameScript ~= '|list' then
 		local All = {}
 
