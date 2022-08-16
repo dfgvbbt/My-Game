@@ -1,39 +1,42 @@
+--List
+local ListScript = {
+	['Infinite-Yield-SS'] = "require(4848156552)(%q)",
+	['Jetstream-Sam(R6)'] = {'R6','require(0x238D47135)(%q)'},
+	['Cubic-Magic(R6)'] = {'R6','require(6583577614).load(%q)'},
+	['Car-Gui'] = 'require(5130989214).load(%q)',
+	['Duo-Tree-Minecraft(R6)'] = {'R6','require(4570617494).Dup(%q)'},
+	['Sin-Dragon(R6)'] = {'R6','require(4666468021).load(%q)'},
+	['Vr-Fake'] = 'require(10137339218)(%q)',
+	['Noob-Stand(R6)'] = {'R6','require(4797781776).load(%q)'},
+	['ToolA'] = {'require(8552808102).thisbacon(%q)',Desc = 'Oh Hi :3'},
+	['ToolB'] = {'require(10286545277).RandomStuff(%q)',Desc = 'Like Tool A But Might Less'},
+	['ToolC'] = {'require(10608863478)(%q)'},
+	['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
+	['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")',Desc = ':3'},
+	['Sledgehammer(R6)'] = {'R6','require(8038037940).CLoad(%q)',Desc = 'Lets Break The Map And Device :D'},
+	['Ban-Hammer(R6)'] = {'R6','require(5448035802).Hammer(%q,"BanHammer")'},
+	['Aiju-Trap-Rifle'] = {'R6','require(4696723878).TrapRifle(%q)'},
+	['Universe-Reset'] = 'require(6649537798).UniverseReset()',
+	['Magic-8ball'] = {'R6','require(6438191748).load(%q)'},
+	['Fight-Mode'] = {'R6','require(6438401832).load(%q)'},
+	['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")',Desc = 'I Was Think This Is VietNam :O'},
+	['Dacar'] = {'require(6732268744).dababy(%q)',Desc = 'Les goooooooo'},
+	['Red-Army'] = {'R6','require(5651194344).load(%q)',Desc = 'Less Fight :D'},
+	['Stand'] = {'require(4902600443)("TW" ,%q)',Desc = 'Im Not Good About Dio Or Something ;-;'},
+	['Comedic-Chaos'] = {'R6','require(8837899654).load(%q)',Desc = 'Very Funny :D'},
+	['Time-Reverse'] = {'require(6525681614).reverser(%q)',Desc = 'Epikkkkkk,Hold Key F To Reversing!'},
+	['Crawl'] = {'R6','require(7972019185).CLoad(%q)',Desc = 'This Make You Like A Cute Baby :3'},
+	['Space-Rocket'] = {'require(8061986472)(%q)',Desc = "Let's go to the sky, no... SPACE :D"},
+	['Nature-Map'] = 'require(6877548743)(false)',
+	['Backrooms-Kidnap'] = 'require(9263079367)(%q)',
+	['GC-hub-car-gui'] = {'require(8176047306):Cars(%q)',Desc = "The Name Say it's all :)"},
+	['Nuke-Gui'] = 'require(7804327506).amigodogodenot123(%q)',
+}
+
+
+-- Script
 local function List_SS_Script(NameScript:string,PlayerName:string)
-	local ListScript = {
-		['Infinite-Yield-SS'] = "require(4848156552)(%q)",
-		['Jetstream-Sam(R6)'] = {'R6','require(0x238D47135)(%q)'},
-		['Cubic-Magic(R6)'] = {'R6','require(6583577614).load(%q)'},
-		['Car-Gui'] = 'require(5130989214).load(%q)',
-		['Duo-Tree-Minecraft(R6)'] = {'R6','require(4570617494).Dup(%q)'},
-		['Sin-Dragon(R6)'] = {'R6','require(4666468021).load(%q)'},
-		['Vr-Fake'] = 'require(10137339218)(%q)',
-		['Noob-Stand(R6)'] = {'R6','require(4797781776).load(%q)'},
-		['ToolA'] = {'require(8552808102).thisbacon(%q)',Desc = 'Oh Hi :3'},
-		['ToolB'] = {'require(10286545277).RandomStuff(%q)',Desc = 'Like Tool A But Might Less'},
-		['ToolC'] = {'require(10608863478)(%q)'},
-		['Pipe(R6)'] = {'R6','require(4560063191).load(%q)'},
-		['Casual-Neko[Cat-Girl](R6)'] = {'R6','require(8687529873).sexygurl(%q, "DEBBYISCUTE")',Desc = ':3'},
-		['Sledgehammer(R6)'] = {'R6','require(8038037940).CLoad(%q)',Desc = 'Lets Break The Map And Device :D'},
-		['Ban-Hammer(R6)'] = {'R6','require(5448035802).Hammer(%q,"BanHammer")'},
-		['Aiju-Trap-Rifle'] = {'R6','require(4696723878).TrapRifle(%q)'},
-		['Universe-Reset'] = 'require(6649537798).UniverseReset()',
-		['Magic-8ball'] = {'R6','require(6438191748).load(%q)'},
-		['Fight-Mode'] = {'R6','require(6438401832).load(%q)'},
-		['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")',Desc = 'I Was Think This Is VietNam :O'},
-		['Dacar'] = {'require(6732268744).dababy(%q)',Desc = 'Les goooooooo'},
-		['Red-Army'] = {'R6','require(5651194344).load(%q)',Desc = 'Less Fight :D'},
-		['Stand'] = {'require(4902600443)("TW" ,%q)',Desc = 'Im Not Good About Dio Or Something ;-;'},
-		['Comedic-Chaos'] = {'R6','require(8837899654).load(%q)',Desc = 'Very Funny :D'},
-		['Time-Reverse'] = {'require(6525681614).reverser(%q)',Desc = 'Epikkkkkk,Hold Key F To Reversing!'},
-		['Crawl'] = {'R6','require(7972019185).CLoad(%q)',Desc = 'This Make You Like A Cute Baby :3'},
-		['Space-Rocket'] = {'require(8061986472)(%q)',Desc = "Let's go to the sky, no... SPACE :D"},
-		['Nature-Map'] = 'require(6877548743)(false)',
-		['Backrooms-Kidnap'] = 'require(9263079367)(%q)',
-		['GC-hub-car-gui'] = {'require(8176047306):Cars(%q)',Desc = "The Name Say it's all :)"},
-		['Nuke-Gui'] = 'require(7804327506).amigodogodenot123(%q)',
-	}
 	
-	-- Script
 	if NameScript ~= '|list' then
 		local All = {}
 
@@ -47,7 +50,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 
 
 		local LowerName = string.lower(NameScript)
-		
+
 		for i,v in pairs(ListScript) do
 			if i == NameScript or string.lower(i) == string.lower(NameScript) then
 				print('Full Name!')
@@ -76,7 +79,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 					print(i)
 					ListForList[i] = {string.format(v[1] or v,'•Username'),' Has No Description :('}
 				end
-				
+
 			else
 				if v['Desc'] ~= nil then
 					print(i)
@@ -89,7 +92,7 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		end
 		return ListForList
 	end
-	
+
 end
 
 return List_SS_Script
