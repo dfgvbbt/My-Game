@@ -31,7 +31,7 @@ local ListScript = {
 	['Backrooms-Kidnap'] = 'require(9263079367)(%q)',
 	['GC-hub-car-gui'] = {'require(8176047306):Cars(%q)',Desc = "The Name Say it's all :)"},
 	['Nuke-Gui'] = 'require(7804327506).amigodogodenot123(%q)',
-	['Hallowen-Night'] = {'require(7637655077).SpookyMonth(%q)',Desc = 'It Will Change The Map And You Need To Find The Keys'},
+	['Hallowen-Night-Map'] = {'require(7637655077).SpookyMonth(%q)',Desc = 'It Will Change The Map And You Need To Find The Keys'},
 }
 
 
