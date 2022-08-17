@@ -37,7 +37,7 @@ local ListScript = {
 	['Fake-Vr'] = {'R6','require(6223977609)["FakeVr"](%q)',Desc = "Keybinds(Z,Q,E,Left Click,Right Click!)"},
 	['Sleeping'] = {'R6','require(6375455603)(%q)',Desc = 'Say "Night" to sleep :D'},
 	['Time-Machine-Kidnap'] = {'require(7411835387)(%q)'},
-	["Node's-Neko"] = {'R6','require(9373507600).cat(%q)',Desc = "it's give you animations cat girl and say '/e c <Userid>' to change your character"}
+	["Node's-Neko"] = {'R6','require(9373507600).cat(%q)',Desc = "it's give you animations cat girl and say '/e c <Userid>' to change your character"},
 	['Anime-Neko[Cat-Girl]'] = {'R6','require(9840281242).yes(%q)'},
 }
 
