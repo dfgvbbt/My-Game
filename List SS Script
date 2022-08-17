@@ -35,7 +35,7 @@ local ListScript = {
 	['Portable-Screen'] = {'require(5928380931).load(%q)',Desc = 'Give You The Tool And You Need Put The Id To That(Find in roblox website :D)'},
 	['Elite-Combine'] = 'require(7548845598).load(%q)',
 	['Fake-Vr'] = {'R6','require(6223977609)["FakeVr"](%q)',Desc = "Keybinds(Z,Q,E,Left Click,Right Click!)"},
-	['Sleeping'] = {'R6','require(6375455603)(%q)',Desc = 'Say "Night" to sleep and they cannot reset :D'},
+	['Sleeping'] = {'R6','require(6375455603)(%q)',Desc = 'Say "Night" to sleep :D'},
 }
 
 
