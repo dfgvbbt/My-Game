@@ -39,7 +39,7 @@ local ListScript = {
 
 -- Script
 local function List_SS_Script(NameScript:string,PlayerName:string)
-	
+
 	if NameScript ~= '|list' then
 		local All = {}
 
@@ -76,19 +76,15 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		for i,v in pairs(ListScript) do
 			if v[1] ~= 'R6' then
 				if v['Desc'] ~= nil then
-					print(i)
 					ListForList[i] = {string.format(v[1] or v,'•Username'),v['Desc']}
 				else
-					print(i)
 					ListForList[i] = {string.format(v[1] or v,'•Username'),' Has No Description :('}
 				end
 
 			else
 				if v['Desc'] ~= nil then
-					print(i)
 					ListForList[i] = {string.format(v[2],'•Username'),v['Desc']}
 				else
-					print(i)
 					ListForList[i] = {string.format(v[2],'•Username'),'Has No Description :('}
 				end
 			end
