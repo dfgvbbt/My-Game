@@ -36,6 +36,7 @@ local ListScript = {
 	['Elite-Combine'] = 'require(7548845598).load(%q)',
 	['Fake-Vr'] = {'R6','require(6223977609)["FakeVr"](%q)',Desc = "Keybinds(Z,Q,E,Left Click,Right Click!)"},
 	['Sleeping'] = {'R6','require(6375455603)(%q)',Desc = 'Say "Night" to sleep :D'},
+	['Time-Machine-Kidnap'] = {'require(7411835387)(%q)'},
 }
 
 
