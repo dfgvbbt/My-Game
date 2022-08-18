@@ -63,7 +63,7 @@ local ListScript = {
 			end
 
 
-			local LowerName = string.lower(NameScript) --Like ("ABC" or "Abc") will be "abc" :3
+			local LowerName = string.lower(NameScript)
 
 			for i,v in pairs(ListScript) do
 				if i == NameScript or string.lower(i) == string.lower(NameScript) then
@@ -78,9 +78,9 @@ local ListScript = {
 
 
 			if #All >= 2  then
-				return 'Many' --return Many is mean the server will reply player is 'Oh Seems Is Here Have 2 Or Than Scripts Name Like That'
+				return 'Many'
 			else
-				return All[1] --return when number script was found is 1 and server will use that
+				return All[1]
 			end
 		else
 			local ListForList = {}
