@@ -46,6 +46,7 @@ local ListScript = {
 	['Veggietable'] = {'R6','require(6342893088).load(%q)'},
 	['Neko-Hub'] = {'require(8795514657):NekoHub(%q)',Desc = 'Very Sussy :3'},
 	['Quantum-Science-Lab[Lag]'] = {'require(7737379602).map()',Desc = 'This Might Make The Server Broken'},
+	['Mask-Boy'] = {'R6','require(6375542687).load(%q)',Desc = 'The sound is copyrighted, so it has been removed :('},
 }
 
 
