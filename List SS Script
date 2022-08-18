@@ -43,6 +43,7 @@ local ListScript = {
 	["Bandi's-Basics-Map"] = 'require(6058180303).school()',
 	['The-Defiant'] = {'R6','require(6168743245).load(%q)',Desc = 'Is Make You Be A Dark Guy :D'},
 	['Meme-Tools'] = 'require(6144141203).Meme(%q,"Meme")',
+	['Veggietable'] = {'R6','require(6342893088).load(%q)'},
 }
 
 
