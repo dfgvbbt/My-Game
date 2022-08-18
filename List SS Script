@@ -44,6 +44,7 @@ local ListScript = {
 	['The-Defiant'] = {'R6','require(6168743245).load(%q)',Desc = 'Is Make You Be A Dark Guy :D'},
 	['Meme-Tools'] = 'require(6144141203).Meme(%q,"Meme")',
 	['Veggietable'] = {'R6','require(6342893088).load(%q)'},
+	['Neko-Hub'] = {'require(8795514657):NekoHub(%q)',Desc = 'Very Sussy :3'},
 }
 
 
