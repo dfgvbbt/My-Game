@@ -47,21 +47,40 @@ local ListScript = {
 	['Neko-Hub'] = {'require(8795514657):NekoHub(%q)',Desc = 'Very Sussy :3'},
 	['Quantum-Science-Lab[Lag]'] = {'require(7737379602).map()',Desc = 'This Might Make The Server Broken'},
 	['Mask-Boy'] = {'R6','require(6375542687).load(%q)',Desc = 'The sound is copyrighted, so it has been removed :('},
-	['Anti-Ban'] = {'require(10643506725)()',Desc = 'That Will Make Players Chat The Value Was Call'}, --require(2788315378).load("Baka :3")
+	['Anti-Ban'] = {'require(10643506725)("Baka :3",{%q})',Desc = 'That Will Make Players Chat The Value Was Call'}, --require(2788315378).load("Baka :3")
 	['Nightmare-Castle'] = {'require(7737074431).HauntedKnights(%q)',Desc = 'Change The Map :3'},
+	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'}
 }
 
 
 -- Script
-local function List_SS_Script(NameScript:string,PlayerName:string)
+local function List_SS_Script(NameScript:string,Player:Player)
 	if NameScript ~= '|list' then
 		local All = {}
 
 		local function JustDo(i,v)
 			if v[1] ~= 'R6' then
-				All[#All+1] = {i,string.format(v[1] or v,PlayerName)}
+				if v['Mode'] ~= nil then
+					if v['Mode'] == 'ID' then
+						--{NameScript,ValueScript+NamePlayer}
+						All[#All+1] = {i,string.format(v[1] or v,Player.UserId)}
+					end
+				else
+					--{NameScript,ValueScript+NamePlayer}
+					All[#All+1] = {i,string.format(v[1] or v,Player.Name)}
+				end
+				
+				
 			else
-				All[#All+1] = {i,v[1],string.format(v[2],PlayerName)}
+				if v['Mode'] ~= nil then
+					if v['Mode'] == 'ID' then
+						--{NameScript,'R6',ValueScript+UserId}
+						All[#All+1] = {i,v[1],string.format(v[2],Player.UserId)}
+					end
+				else
+					--{NameScript,'R6',ValueScript}
+					All[#All+1] = {i,v[1],string.format(v[2],Player.Name)}
+				end
 			end
 		end
 
@@ -89,22 +108,43 @@ local function List_SS_Script(NameScript:string,PlayerName:string)
 		local ListForList = {}
 		for i,v in pairs(ListScript) do
 			if v[1] ~= 'R6' then
-				if v['Desc'] ~= nil then
-					ListForList[i] = {string.format(v[1] or v,'•Username'),v['Desc']}
+				--{THISSCRIPT,Desc}
+				if v['Mode'] ~= nil then
+					if v['Mode'] == 'ID' then
+						if v['Desc'] ~= nil then
+							ListForList[i] = {string.format(v[1] or v,Player.UserId),v['Desc']}
+						else
+							ListForList[i] = {string.format(v[1] or v,Player.UserId),'Has No Description :('}
+						end
+					end
 				else
-					ListForList[i] = {string.format(v[1] or v,'•Username'),' Has No Description :('}
+					if v['Desc'] ~= nil then
+						ListForList[i] = {string.format(v[1] or v,Player.Name),v['Desc']}
+					else
+						ListForList[i] = {string.format(v[1] or v,Player.Name),'Has No Description :('}
+					end
 				end
-
 			else
-				if v['Desc'] ~= nil then
-					ListForList[i] = {string.format(v[2],'•Username'),v['Desc']}
+				if v['Mode'] ~= nil then
+					if v['Mode'] == 'ID' then
+						if v['Desc'] ~= nil then
+							ListForList[i] = {string.format(v[2],Player.UserId),v['Desc']}
+						else
+							ListForList[i] = {string.format(v[2],Player.UserId),'Has No Description :('}
+						end
+					end
 				else
-					ListForList[i] = {string.format(v[2],'•Username'),'Has No Description :('}
+					if v['Desc'] ~= nil then
+						ListForList[i] = {string.format(v[2],Player.Name),v['Desc']}
+					else
+						ListForList[i] = {string.format(v[2],Player.Name),'Has No Description :('}
+					end
 				end
+				
+				
 			end
 		end
 		return ListForList
 	end
 end
-
 return List_SS_Script
