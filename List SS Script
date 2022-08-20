@@ -49,7 +49,7 @@ local ListScript = {
 	['Mask-Boy'] = {'R6','require(6375542687).load(%q)',Desc = 'The sound is copyrighted, so it has been removed :('},
 	['Anti-Ban[Whitelist]'] = {'require(10643506725)("Baka :3",{%q})',Desc = 'That Will Make Players Chat The Value Was Call'}, --require(2788315378).load("Baka :3")
 	['Nightmare-Castle'] = {'require(7737074431).HauntedKnights(%q)',Desc = 'Change The Map :3'},
-	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'}
+	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'},
 }
 
 
