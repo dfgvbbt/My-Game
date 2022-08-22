@@ -51,7 +51,7 @@ local ListScript = {
 	['Nightmare-Castle'] = {'require(7737074431).HauntedKnights(%q)',Desc = 'Change The Map :3'},
 	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'},
 	['Drone-Minigun(R6)'] = {'R6','require(5248023821).load(%q)',Desc = 'As Da Nam :)'},
-	['Hell-Talker'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
+	['Hell-Talker[Audio]'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
 }
 
 
