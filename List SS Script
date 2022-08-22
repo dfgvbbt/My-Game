@@ -93,10 +93,10 @@ local function List_SS_Script(NameScript:string,Player:Player)
 				print("Full Name :D")
 				JustDo(i,v)
 				break --Stop The Loop Because Was Found That
-			elseif string.match(i,NameScript) or string.match(string.lower(i),LowerName) then
+			elseif string.sub(i,1,#NameScript) == NameScript or string.sub(string.lower(i),1,#LowerName) == LowerName then
 				JustDo(i,v)
 			end
-		end
+	    	end
 
 
 
