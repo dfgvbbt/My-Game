@@ -50,7 +50,8 @@ local ListScript = {
 	['Anti-Ban[Whitelist]'] = {'require(10643506725)("Baka :3",{%q})',Desc = 'That Will Make Players Chat The Value Was Call'}, --require(2788315378).load("Baka :3")
 	['Nightmare-Castle'] = {'require(7737074431).HauntedKnights(%q)',Desc = 'Change The Map :3'},
 	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'},
-	['Drone-Minigun'] = {'R6','require(5248023821).load(%q)',Desc = 'As Da Nam :)'},
+	['Drone-Minigun(R6)'] = {'R6','require(5248023821).load(%q)',Desc = 'As Da Nam :)'},
+	['Hell-Talker'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
 }
 
 
