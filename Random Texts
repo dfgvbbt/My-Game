@@ -1,2 +1,2 @@
-local This = {'Sus'}
+local This = {'Sus','No','Yes'}
 return This
