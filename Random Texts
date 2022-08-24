@@ -1,5 +1,5 @@
 local This = {'Sus','No','Yes','U','N','Un','Hi','Hello','Chat','Kick','Bully','Fly','This','That','English','Fling','Test','Super','I','Abc','Clay','Baka','Space',
-  'Random','Game','Attack','Attach','Tool','Idol','Google','Trans','Mail','Translate','dfgvbbt','Class','Roblox','Private','Server','Youtube','Arena','Gen','Alt','f1',
-  'f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','Ctrl','Shift','Lock','Tap','Player','Salad','Sad','Fun','Give','Cho'
+  'Random','Game','Attack','Attach','Tool','Idol','Google','Trans','Mail','Translate','dfgvbbt','Class','Roblox','Private','Server','Youtube','Arena','Gen','Alt',
+  'Ctrl','Shift','Lock','Tap','Player','Salad','Sad','Fun','Give','Cho'
 }
 return This
