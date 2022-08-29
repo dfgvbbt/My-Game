@@ -52,6 +52,7 @@ local ListScript = {
 	['Dark-Destroyer'] = {'require(10633849956).destroyer(%d,"AltF4#8400")',Mode = 'ID'},
 	['Drone-Minigun(R6)'] = {'R6','require(5248023821).load(%q)',Desc = 'As Da Nam :)'},
 	['Hell-Talker[Audio]'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
+	['Aether-Lightning'] = {'R6','require(4229413153).load(%q)',Desc = 'Yes Sirrrrrrr'},
 }
 
 
