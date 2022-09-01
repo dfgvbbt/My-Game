@@ -53,6 +53,7 @@ local ListScript = {
 	['Drone-Minigun(R6)'] = {'R6','require(5248023821).load(%q)',Desc = 'As Da Nam :)'},
 	['Hell-Talker[Audio]'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
 	['Vergil'] = {'R6','require(9907531302)(%q)',Desc = 'Yes Sirrrrrrr'},
+	['Colten-Car'] = {'require(10736715485).SpawnCar(%q, "ColtOKAMI")',Desc = 'Car :)'},
 }
 
 
