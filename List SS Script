@@ -54,7 +54,8 @@ local ListScript = {
 	['Hell-Talker[Audio]'] = {'require(6569726017)[%q] = "Dark";',Desc = 'Nice(This Might Make You Lag)'},
 	['Vergil'] = {'R6','require(9907531302)(%q)',Desc = 'Yes Sirrrrrrr'},
 	['Colten-Car'] = {'require(10736715485).SpawnCar(%q, "ColtOKAMI")',Desc = 'Car :)'},
-	['IronMan-Eliza'] = {'R6','require(5493872436).eliza(%q)',Desc = 'Not Make Sure The Name Is Correct :V'},
+	['IronMan-Eliza'] = {'R6','require(5493872436).eliza(%q)',Desc = 'Not Make Sure The Name Is Correct :V,Script Created In 2020 ;-;'},
+	['Fighter-Ai(A10)'] = {'require(8686293780).A10(%q)',Desc = 'Nice :O'},
 }
 
 
