@@ -283,7 +283,7 @@ const all = [
   'https://media.discordapp.net/attachments/956047653639163935/963619056806682684/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/959812577150529566/Snaptik_7075794891493641515_vritra_Moment.jpg'];
   
-  const randomnumber = Math.floor(Math.random() * months.length);
+  const randomnumber = Math.floor(Math.random() * all.length);
   src = all[randomnumber],
   img = document.createElement('img');
 
