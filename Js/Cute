@@ -1,0 +1,9 @@
+const all = [
+  'https://media.discordapp.net/attachments/781481778795118612/1025291814774788176/unknown.png'];
+  
+  const randomnumber = Math.floor(Math.random() * all.length);
+  src = all[randomnumber],
+  img = document.createElement('img');
+
+  img.src = src;
+  document.body.appendChild(img);
