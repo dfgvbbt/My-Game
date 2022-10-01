@@ -1,5 +1,6 @@
 const all = [
-  'https://media.discordapp.net/attachments/781481778795118612/1025291814774788176/unknown.png'];
+  'https://media.discordapp.net/attachments/781481778795118612/1025291814774788176/unknown.png',
+  'https://waifugame.com/originals/G-2724368@2X.jpg'];
   
   const randomnumber = Math.floor(Math.random() * all.length);
   src = all[randomnumber],
