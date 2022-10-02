@@ -1,0 +1,15 @@
+const all = [
+  'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Just%20Tell%20Me/ES_Just%20Tell%20Me.mp3',
+  'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Bad%20Love%20Good%20Love/ES_Bad%20Love%20Good%20Love.mp3',
+  'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Coming%20Home%20(Instrumental%20Version)/ES_Coming%20Home%20(Instrumental%20Version).mp3',
+  'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Coming%20Home/ES_Coming%20Home.mp3',
+  'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Z3iL56_Hesitating/ES_Hesitating.mp3'];
+
+  const randomnumber = Math.floor(Math.random() * all.length);
+  src = all[randomnumber],
+  au = document.createElement('audio');
+
+  au.src = src;
+  au.controls = true;
+  au.autoplay = true;
+  document.body.appendChild(au);
