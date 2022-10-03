@@ -3,6 +3,8 @@ const all = [
   'https://media.discordapp.net/attachments/1025728278276882493/1025925333347737650/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1019048416979976293/unknown.png',
   
+  'https://data.terabox.com/thumbnail/b0bd8271212b6d7433dd73babd0e6343?fid=4398477238349-250528-217232026945210&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-j4TN1Eyg5C25hnCuwtq0mLro9FI%3d&expires=8h&chkbd=0&chkv=0&dp-logid=8694405368475139759&dp-callid=0&time=1664762400&size=c500_u500&quality=100&vuk=4398477238349&ft=image'
+  
   'https://media.discordapp.net/attachments/956047653639163935/1026052329570582528/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1026052330107441202/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1026052330522689546/unknown.png',
