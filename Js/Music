@@ -6,7 +6,7 @@ function httpGet(theUrl)
    return xmlHttp.responseText;
  }
  
-const all = httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music')
+const all = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music'))
 
   const randomnumber = Math.floor(Math.random() * all.length);
   src = all[randomnumber],
