@@ -1,4 +1,4 @@
-{
+function ret(){
 return  [
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Just%20Tell%20Me/ES_Just%20Tell%20Me.mp3",
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Bad%20Love%20Good%20Love/ES_Bad%20Love%20Good%20Love.mp3",
@@ -51,3 +51,5 @@ return  [
   'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Gangsta%20Claus/ES_Gangsta%20Claus.mp3',
   'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Ease%20With%20the%20Breeze/ES_Ease%20With%20the%20Breeze.mp3']
  }
+
+ret()
