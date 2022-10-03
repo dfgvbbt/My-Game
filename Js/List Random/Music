@@ -1,4 +1,5 @@
-[
+(){
+return  [
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Just%20Tell%20Me/ES_Just%20Tell%20Me.mp3",
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Bad%20Love%20Good%20Love/ES_Bad%20Love%20Good%20Love.mp3",
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Coming%20Home%20(Instrumental%20Version)/ES_Coming%20Home%20(Instrumental%20Version).mp3",
@@ -49,3 +50,4 @@
   'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Before%20It%20Went%20Down%20(Instrumental%20Version)/ES_Before%20It%20Went%20Down%20(Instrumental%20Version).mp3',
   'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Gangsta%20Claus/ES_Gangsta%20Claus.mp3',
   'https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Ease%20With%20the%20Breeze/ES_Ease%20With%20the%20Breeze.mp3']
+ }
