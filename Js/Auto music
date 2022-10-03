@@ -1,0 +1,22 @@
+function httpGet(theUrl)
+ {
+   var xmlHttp = new XMLHttpRequest();
+   xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+   xmlHttp.send( null );
+   return xmlHttp.responseText;
+ }
+ 
+const all = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music'))
+
+ const randomnumber = Math.floor(Math.random() * all.length);
+ src = all[randomnumber],
+ au = document.createElement('audio');
+
+ au.src = src;
+ au.controls = true;
+ au.autoplay = true;
+ document.body.appendChild(au);
+ 
+ au.addEventListener('ended', function() {
+    eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))
+},false);
