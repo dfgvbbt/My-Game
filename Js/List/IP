@@ -1,7 +1,7 @@
 function ret(){
-return  {
-   ['125.235.237.180'] = "hm?"
-  }
+   const idk = {}
+   idk['125.235.237.180'] = "hm?"
+   return idk
  }
 
 ret()
