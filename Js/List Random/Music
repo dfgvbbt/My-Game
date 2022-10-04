@@ -1,5 +1,15 @@
 function ret(){
 return  [
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026657985268809861/Arcando_When_Im_With_You_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026659418311495723/PLEEG_-_Home_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026654364384907264/Leateq_Sunrise_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026653667891363840/Itro_Tobu_Cloud_9_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026652990578372638/Culture_Code_Make_Me_Move_feat_Karra_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026652652144181318/Cartoon_C_U_Again_feat_Mikk_Mae_Cartoon_vs_Futuristik_VIP_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026652327626690591/Inukshuk_A_World_Away_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026652054682337300/Fransis_Derelle_Fly_feat_Parker_Pohill_NCS_Release.mp3",
+  "https://cdn.discordapp.com/attachments/1020666996834189393/1026651681062137876/Cartoon_feat_Juri_Pootsmann_I_Remember_U_Xilent_Remix_NCS_Release.mp3",
+  
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Just%20Tell%20Me/ES_Just%20Tell%20Me.mp3",
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Bad%20Love%20Good%20Love/ES_Bad%20Love%20Good%20Love.mp3",
   "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Coming%20Home%20(Instrumental%20Version)/ES_Coming%20Home%20(Instrumental%20Version).mp3",
