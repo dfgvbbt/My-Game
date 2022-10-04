@@ -25,4 +25,4 @@ if (list[ip]) {
  btn.innerHTML = "Random Hentai Image ~-~";
  btn.onclick = HenImage;
  document.body.appendChild(btn);
-} else {console.log(ip)}
+} else {console.log('Your ip is "'+ip+'" send it to me if you want to unlock secret feature 🥴')}
