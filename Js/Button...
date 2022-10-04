@@ -1,16 +1,28 @@
 function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
+function HenImage() {
+  function httpGet(theUrl)
   {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
   }
-  const list = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List/IP'))
-  const ip = (httpGet('https://api.ipify.org/'))
+  eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/NSFW'))
+}
+
+const list = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List/IP'))
+const ip = (httpGet('https://api.ipify.org/'))
   
-  if (list[ip]) {
-    let btn = document.createElement("button");
-    btn.innerHTML = "Random Hentai Image ~-~";
-    btn.onclick = "HenImage()";
-    document.body.appendChild(btn);
-  } else {console.log(ip)}
+if (list[ip]) {
+ let btn = document.createElement("button");
+ btn.innerHTML = "Random Hentai Image ~-~";
+ btn.onclick = HenImage;
+ document.body.appendChild(btn);
+} else {console.log(ip)}
