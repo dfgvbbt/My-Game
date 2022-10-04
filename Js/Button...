@@ -13,4 +13,4 @@ function httpGet(theUrl)
     btn.innerHTML = "Random Hentai Image ~-~";
     btn.onclick = "HenImage()";
     document.body.appendChild(btn);
-  }
+  } else {console.log(ip)}
