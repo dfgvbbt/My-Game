@@ -1,7 +1,7 @@
 const all = [
   'https://media.discordapp.net/attachments/781481778795118612/1025291814774788176/unknown.png',
-  'https://waifugame.com/originals/G-2724368@2X.jpg',
-  'https://media.discordapp.net/attachments/956047653639163935/963619056806682684/unknown.png'];
+  'https://media.discordapp.net/attachments/956047653639163935/963619056806682684/unknown.png',
+  'https://static.wikia.nocookie.net/mudae/images/8/8b/Bongo_Cat26.gif/revision/latest?cb=20210108002733'];
   
   const randomnumber = Math.floor(Math.random() * all.length);
   src = all[randomnumber],
