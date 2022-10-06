@@ -10,14 +10,13 @@ function httpGet(theUrl)
     xmlHttp.send( null );
     return xmlHttp.responseText;
   }
-var Info = httpGet('https://ip-api.io/json')
+//var Info = httpGet('https://ip-api.io/json')
 
 
 const params = {
 	username: "Logger dfgvbbt.github.io!",
 	"embeds": [{
-    "description": "A visitor!",
-    "timestamp": toString(Math.floor(Date.now()/1000))
+    "description": "<t:"+Math.floor(Date.now()/1000)+">Have A Visitor!",
   }]  
 }
 
