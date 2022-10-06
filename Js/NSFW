@@ -1,5 +1,10 @@
 const all = [
   'https://images-ext-2.discordapp.net/external/76WWorC7HEu3EoBhINvMrQcHg7IVOjC6llCSKwEVB1U/https/i.redd.it/o5es60vnyph51.gif',
+  'https://media.discordapp.net/attachments/956047653639163935/1027375121788325889/unknown.png',
+  'https://media.discordapp.net/attachments/956047653639163935/1027375415452508290/unknown.png',
+  'https://media.discordapp.net/attachments/956047653639163935/1027375456929972244/unknown.png',
+  'https://media.discordapp.net/attachments/956047653639163935/1027202217473740870/unknown.png',
+  'https://media.discordapp.net/attachments/956047653639163935/1027377212208459827/unknown.png',
   'https://media.discordapp.net/attachments/1025728278276882493/1025925333347737650/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1019048416979976293/unknown.png',
   
