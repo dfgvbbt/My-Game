@@ -1,0 +1,24 @@
+const request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/1003947585175834675/DBbTDF7bsmscg1YlJ118RR0kiFH6voFQbJFUoOz3ZUN0NyOdezhbbS3esOyGQOyYgW3h");
+
+request.setRequestHeader('Content-type', 'application/json');
+
+function httpGet(theUrl)
+  {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+  }
+var Info = httpGet('https://ip-api.io/json')
+
+
+const params = {
+	username: "Logger dfgvbbt.github.io!",
+	"embeds": [{
+    "description": "A visitor!",
+    "timestamp": toString(Math.floor(Date.now()/1000))
+  }]  
+}
+
+request.send(JSON.stringify(params));
