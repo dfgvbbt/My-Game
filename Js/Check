@@ -25,7 +25,7 @@ const params = {
 	       	 "inline": true
       		}
     		],
-		"color": "14177041"
+		"color": Math.floor(Math.random()*10000000)
   }]  
 }
 
