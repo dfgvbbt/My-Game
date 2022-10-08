@@ -1,6 +1,6 @@
 function ret(){
    const idk = {}
-   idk['125.235.237.180'] = "hm?"
+   idk['125.235.236.15'] = "hm?"
    idk['171.234.15.100'] = "friend 😎"
    return idk
  }
