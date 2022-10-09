@@ -9,10 +9,17 @@ function httpGet(theUrl)
 const all = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music'))
 
   const randomnumber = Math.floor(Math.random() * all.length);
-  src = all[randomnumber],
-  au = document.createElement('audio');
+var src = all[randomnumber]
 
-  au.src = src;
-  au.controls = true;
-  au.autoplay = true;
-  document.body.appendChild(au);
+if ( (typeof(all[randomnumber])) == "string") {
+ au = document.createElement('audio');
+
+ au.src = src;
+ au.controls = true;
+ au.autoplay = true;
+ document.body.appendChild(au);
+}
+else if ( typeof(all[randomnumber]) == "function") {
+    all[randomnumber]()
+}
+else {console.log(src,typeof(src))}
