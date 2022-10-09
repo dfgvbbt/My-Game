@@ -8,15 +8,23 @@ function httpGet(theUrl)
  
 const all = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music'))
 
- const randomnumber = Math.floor(Math.random() * all.length);
- src = all[randomnumber],
+  const randomnumber = Math.floor(Math.random() * all.length);
+var src = all[randomnumber]
+
+if ( (typeof(all[randomnumber])) == "string") {
  au = document.createElement('audio');
 
  au.src = src;
  au.controls = true;
  au.autoplay = true;
  document.body.appendChild(au);
- 
  au.addEventListener('ended', function() {
     eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))
-},false);
+ },false);
+}
+else if ( typeof(all[randomnumber]) == "function") {
+    all[randomnumber](function() {eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))})
+}
+else {console.log(src,typeof(src))}
+ 
+ 
