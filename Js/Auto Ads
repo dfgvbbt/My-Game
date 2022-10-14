@@ -1,3 +1,8 @@
+<script>
+var lel = document.createElement("button")
+lel.innerHTML = "Submit"
+lel.onclick = function() {
+    
 function setCookie(cname, cvalue, exdays) {
     console.log(exdays,new Date(Date.now()).toUTCString())
   document.cookie = cname + "=" + cvalue + ";expires=" + exdays + ";path=/";
@@ -43,3 +48,5 @@ var ne = Number(getCookie("Current"))+1
 setCookie("Current",ne,_.toUTCString())
 
 window.location.replace("https://dfgvbbt.github.io/Ads/"+ne)
+}
+document.body.appendChild(lel)
