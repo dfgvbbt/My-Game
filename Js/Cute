@@ -1,6 +1,5 @@
 const all = [
-  'https://cdn.discordapp.com/banners/984935633900429313/a_3348c350741a11a4d89ab16efabf10d4.gif',
-  'https://media.discordapp.net/attachments/956047653639163935/963619056806682684/unknown.png'];
+  'https://cdn.discordapp.com/banners/984935633900429313/a_3348c350741a11a4d89ab16efabf10d4.gif'];
   
   const randomnumber = Math.floor(Math.random() * all.length);
   src = all[randomnumber],
