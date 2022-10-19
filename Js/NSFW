@@ -9,6 +9,8 @@ const all = [
   'https://preview.redd.it/09eqlpa3cnu91.jpg?width=960&crop=smart&auto=webp&s=901811353c4868923ba8defd606467fec4cfb60b',
   'https://external-preview.redd.it/szFDmRMSOu-dD60v2V57fkTQOsRzR6kN9ImgxB3h6qU.jpg?width=640&crop=smart&auto=webp&s=1d04cf9c28a3ee07e86dcd21cf1e467ae7f6d0f5',
   'https://preview.redd.it/edxpxkgqrlu91.jpg?width=640&crop=smart&auto=webp&s=dd58d98b3b95f1e5fbcdb78088c411c9da93af29',
+  'https://preview.redd.it/wxpc4smshou91.jpg?width=960&crop=smart&auto=webp&s=90070f31e74f587ab2a4c41303976e449a241711',
+  
   'https://media.discordapp.net/attachments/956047653639163935/1027375121788325889/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1027375415452508290/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1027375456929972244/unknown.png',
