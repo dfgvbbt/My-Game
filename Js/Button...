@@ -29,7 +29,7 @@ for (var ix=0;ix<list.length;ix++) {
      document.body.appendChild(btn);
      break
     } 
-    if (ix == list.lenght) {console.log('Your ip is "'+ip+'" send it to me if you want to unlock secret feature 🥴')
+    if (ix == list.length) {console.log('Your ip is "'+ip+'" send it to me if you want to unlock secret feature 🥴')
 
 
 
