@@ -1,7 +1,5 @@
 function ret(){
-   const idk = {}
-   idk['1'] = "125.235.236"
-   idk['2'] = "171.234.15"
+  let idk = ["125.235.236","171.234.15"]
    return idk
  }
 
