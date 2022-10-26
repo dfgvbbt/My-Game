@@ -19,9 +19,7 @@ function HenImage() {
 
 var list = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List/IP'))
 var ip = (httpGet('https://api.ipify.org/'))
-console.log(list,list.length)
 for (var ix=0;ix<list.length;ix++) {
-    console.log(ix)
     if (ip.startsWith(list[ix])) {
      let btn = document.createElement("button");
      btn.innerHTML = "Random Hentai Image ~-~";
@@ -29,7 +27,7 @@ for (var ix=0;ix<list.length;ix++) {
      document.body.appendChild(btn);
      break
     } 
-    if (ix == list.length-1) {console.log('Your ip is "'+ip+'" send it to me if you want to unlock secret feature 🥴')
+    if (ix == list.length-1) {console.log('Your ip is "'+ip+'" send it to me if you want to unlock secret feature 😳')
 
 
 
