@@ -15,6 +15,9 @@ const all = [
   'https://external-preview.redd.it/szFDmRMSOu-dD60v2V57fkTQOsRzR6kN9ImgxB3h6qU.jpg?width=640&crop=smart&auto=webp&s=1d04cf9c28a3ee07e86dcd21cf1e467ae7f6d0f5',
   'https://preview.redd.it/edxpxkgqrlu91.jpg?width=640&crop=smart&auto=webp&s=dd58d98b3b95f1e5fbcdb78088c411c9da93af29',
   'https://preview.redd.it/wxpc4smshou91.jpg?width=960&crop=smart&auto=webp&s=90070f31e74f587ab2a4c41303976e449a241711',
+  'https://i.redd.it/pzoj4duod3w91.png',
+  'https://i.redd.it/qamgudtqy3w91.jpg',
+  
   'https://i.redd.it/rjehttahw6w91.jpg',
   'https://external-preview.redd.it/HUQ_CBsZ-5gok138SD_C_mMzTrtND1FeHmKXWM26VSI.jpg?auto=webp&s=fec98b5ca3ee74e6e1e47550d71117e05a8507d5',
   'https://i.redd.it/u3jr8x60v6w91.jpg',
