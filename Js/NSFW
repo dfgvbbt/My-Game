@@ -22,6 +22,11 @@ const all = [
   'https://i.redd.it/eh7xlz0g38w91.png',
   'https://i.redd.it/2chtn21nk4w91.jpg',
   'https://media4.giphy.com/media/6KKaItO3A1SxFI1dBS/giphy.gif',
+  'https://i.redd.it/dwweg5s8qbw91.jpgv',
+  'https://i.redd.it/qrsef7zq8bw91.jpg',
+  'https://i.redd.it/y49piee5v5w91.png',
+  'https://external-preview.redd.it/wntWeXcXNm8BnoMzyT0-CZlFXr61ebsME4xQkqfn9UA.jpg?auto=webp&s=25d83831f53de438c6dcdfa20c0a4cef0b48b629',
+  'https://external-preview.redd.it/za5kMSCT1wYlTD7gPXd9ZHZH733hw3InNQabcKzSFqE.jpg?auto=webp&s=2c980eb8768d50a1ed1cc38b5c70d38b44855a9f',
   
   'https://media.discordapp.net/attachments/956047653639163935/1027375121788325889/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/1027375415452508290/unknown.png',
