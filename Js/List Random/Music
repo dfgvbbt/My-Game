@@ -14,7 +14,11 @@ return  [
       vi.addEventListener('ended',Callback,false);
     }
   },
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1035179862408839328/Jensation_Delicious_NCS_Release.mp3',
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1035179029587820565/Halvorsen_Wouldnt_Change_It_NCS_Release.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035178049026670622/Halvorsen_She_Got_Me_Like_NCS_Release.mp3',
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1035174609244405770/Vanze_Survive_feat_Neon_Dreams_NCS_Release.mp3',
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1035173477004623912/Jim_Yosef_Samurai_NCS_Release.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035141576667697233/Feelings.mp3',
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027017549663191110/Rival_x_Cadmium_Seasons_feat_Harley_Bird_Futuristik_Whogaux_Remix_NCS_Release.mp3",
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027017550028095569/Fareoh_Under_Water_NCS_Release.mp3",
