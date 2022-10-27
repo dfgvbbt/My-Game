@@ -4,7 +4,7 @@ return  [
    vi = document.createElement('video');
 
   vi.src = 
-    "//cdn-cf-east.streamable.com/video/mp4/pzsvf5.mp4?Expires=1665553500&Signature=aSbII7vRurFjmKWprSynodTaD6GMl1BjDUMx6rX6i3jnlB9LSusZ~oT0Z5UX5n7WPOxvOFh4Xtsq~V2cvTJZWeVL3ytROWhtJV0~aEevRGZu-TpnPZrSqKBn1rCTZor90PU1PrmJgXABF5TcCYxfUEiVV~s29VyS3j2XuyiC~N1OG1uu7niU~NXg~MRKZhLBy9iWDV5Tyn2kf7gazcbpCU~N3JFl54hd6UMWAsFj7azSDoozarBb2EQD1eX826dW2LPOHo8gUgEbdZx6~Fk5DsMYFcVcFEs816szywivuAiaqmeo-a08a0oSrqP6LLgolQQSZQYgwj7leJeY7vruoQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ";
+    " ";
   vi.controls = true;
   vi.autoplay = true;
   vi.id = 'Name > 『SPY×FAMILY』第2クールエンディング主題歌アニメ映像（ノンクレジット）／“SPY x FAMILY” part2 Ending theme song animation'
@@ -22,6 +22,8 @@ return  [
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027017551613538434/Diamond_Eyes_Gravity_NCS_Release.mp3",
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027017551970062456/Diamond_Eyes_Everything_NCS_Release.mp3",
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027017552313987112/Diamond_Eyes_23_NCS_Release.mp3",
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1035076412639551569/WBN_Mojnz_Radio_NCS_Release.mp3',
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1028472228112781464/SPYFAMILY2_SPY_x_FAMILY_part2_Ending_theme_song_animation.mp3',
   
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027029098758950994/NEFFEX_New_Beginnings_Official_Lyric_Video.mp3",
   "https://cdn.discordapp.com/attachments/1020666996834189393/1027029099077713980/NEFFEX_Wow_Official_Audio_Visualizer.mp3",
