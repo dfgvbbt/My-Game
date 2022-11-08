@@ -17,10 +17,12 @@ if ( (typeof(all[randomnumber])) == "string") {
  au.src = src;
  au.controls = true;
  au.autoplay = true;
+ 
  document.body.appendChild(au);
  au.addEventListener('ended', function() {
     eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))
  },false);
+document.title = scr.replace(/^.*[\\\/]/, '')
 }
 else if ( typeof(all[randomnumber]) == "function") {
     all[randomnumber](function() {eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))})
