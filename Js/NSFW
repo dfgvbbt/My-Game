@@ -3,6 +3,8 @@ const all = [
   'https://i.imgur.com/lefmwcB.gifv',
   'https://external-preview.redd.it/qtlVXrboiUBk0EWKs4uHAUVUyx4piVu3jebgDKaVxvg.png?auto=webp&s=5a8024d742125eb0e0e4441e7ffd797a50850e38',
   'https://i.redd.it/guq3t8wnkmu91.jpg',
+  'https://i.redd.it/u5g4vgayr70a1.jpg',
+'https://i.redd.it/9e0tihq3350a1.jpg', 
   'https://preview.redd.it/tb1dxtzbj3r21.jpg?width=640&crop=smart&auto=webp&s=f49570d30d35cbe408ed6ec50f270dcdcc436131',
   'https://preview.redd.it/uhpur0xhh8w91.jpg?width=640&crop=smart&auto=webp&s=c4197538ab1358e294483a96c799b3e3b81ab62c',
   'https://external-preview.redd.it/-HVBJlnrHxSWJkFgVX79e05y4AKq4MdpzA0QDLT8OYk.jpg?auto=webp&s=d1611d29678e04be93d1cf5f79be8f04819f6c93',
