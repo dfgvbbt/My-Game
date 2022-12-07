@@ -1,4 +1,4 @@
-const all = [
+var all = [
   'https://images-ext-2.discordapp.net/external/76WWorC7HEu3EoBhINvMrQcHg7IVOjC6llCSKwEVB1U/https/i.redd.it/o5es60vnyph51.gif',
   'https://i.imgur.com/lefmwcB.gifv',
   'https://external-preview.redd.it/qtlVXrboiUBk0EWKs4uHAUVUyx4piVu3jebgDKaVxvg.png?auto=webp&s=5a8024d742125eb0e0e4441e7ffd797a50850e38',
@@ -62,6 +62,11 @@ const all = [
 'https://i.redd.it/jtq5syczl24a1.jpg',
 'https://i.redd.it/a1lp6hduiw3a1.jpg', 
 'https://i.redd.it/60hf2v7etv3a1.gif',
+'https://i.redd.it/njsybzrw4e4a1.gif',
+'https://i.redd.it/kg9euadihb4a1.gif',
+'https://i.redd.it/fyujcs3dcd4a1.gif',
+'https://i.redd.it/wdh3hz7hzc4a1.jpg',
+ 
   'https://preview.redd.it/tb1dxtzbj3r21.jpg?width=640&crop=smart&auto=webp&s=f49570d30d35cbe408ed6ec50f270dcdcc436131',
   'https://preview.redd.it/uhpur0xhh8w91.jpg?width=640&crop=smart&auto=webp&s=c4197538ab1358e294483a96c799b3e3b81ab62c',
   'https://external-preview.redd.it/-HVBJlnrHxSWJkFgVX79e05y4AKq4MdpzA0QDLT8OYk.jpg?auto=webp&s=d1611d29678e04be93d1cf5f79be8f04819f6c93',
