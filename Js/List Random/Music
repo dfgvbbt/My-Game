@@ -1,19 +1,22 @@
 function ret(){
-return  [
-  function (Callback) {
+function ToVideo(Url,Name) {
+return function (Callback) {
    vi = document.createElement('video');
 
   vi.src = 
-    " ";
+    Url;
   vi.controls = true;
   vi.autoplay = true;
-  vi.id = 'Name > 『SPY×FAMILY』第2クールエンディング主題歌アニメ映像（ノンクレジット）／“SPY x FAMILY” part2 Ending theme song animation'
+  vi.id = 'Name >'+Name
   document.body.appendChild(vi);
   
   if (Callback) {
       vi.addEventListener('ended',Callback,false);
     }
-  },
+  }
+}
+return  [
+  'https://cdn.discordapp.com/attachments/1020666996834189393/1051707067209109564/Bitonal_Landscape-Supa_Pawa_Drift_Clash_OST.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035179862408839328/Jensation_Delicious_NCS_Release.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035179029587820565/Halvorsen_Wouldnt_Change_It_NCS_Release.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035178049026670622/Halvorsen_She_Got_Me_Like_NCS_Release.mp3',
