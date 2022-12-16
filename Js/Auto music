@@ -22,7 +22,9 @@ if ( (typeof(all[randomnumber])) == "string") {
  au.addEventListener('ended', function() {
     eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))
  },false);
+au.onplay = function() {
 document.title = decodeURI(src.replace(/^.*[\\\/]/, '').replaceAll('_', ' ').replace('ES ','ES|'))
+}
 }
 else if ( typeof(all[randomnumber]) == "function") {
     all[randomnumber](function() {eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))})
