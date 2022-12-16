@@ -23,7 +23,7 @@ if ( (typeof(all[randomnumber])) == "string") {
     eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/Auto%20music'))
  },false);
 au.onplay = function() {
-document.title = decodeURI(src.replace(/^.*[\\\/]/, '').replaceAll('_', ' ').replace('ES ','ES|'))
+  document.title = decodeURI(src.replace(/^.*[\\\/]/, '').replaceAll('_', ' ').replace('ES ','ES|'))
 }
 }
 else if ( typeof(all[randomnumber]) == "function") {
