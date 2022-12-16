@@ -18,7 +18,9 @@ if ( (typeof(all[randomnumber])) == "string") {
  au.controls = true;
  au.autoplay = true;
  document.body.appendChild(au);
- document.title = decodeURI(src.replace(/^.*[\\\/]/, '').replaceAll('_', ' ').replace('ES ','ES|'))
+au.onplay = function() {
+  document.title = decodeURI(src.replace(/^.*[\\\/]/, '').replaceAll('_', ' ').replace('ES ','ES|'))
+}
 }
 else if ( typeof(all[randomnumber]) == "function") {
     all[randomnumber]()
