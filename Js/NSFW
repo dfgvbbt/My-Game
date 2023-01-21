@@ -473,10 +473,18 @@ var all = [
   'https://media.discordapp.net/attachments/956047653639163935/963632781248856074/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/963625556329496657/unknown.png',
   'https://media.discordapp.net/attachments/956047653639163935/959812577150529566/Snaptik_7075794891493641515_vritra_Moment.jpg'];
-  
-  const randomnumber = Math.floor(Math.random() * all.length);
+
+function Do(){
+  const randomnumber = Math.round(Math.random() * all.length);
   src = all[randomnumber],
   img = document.createElement('img');
 
   img.src = src;
   document.body.appendChild(img);
+    img.onerror = function(){
+        alert('Error with url '+src+'\ntrying another')
+        img.remove()
+        Do()
+    }
+}
+Do()
