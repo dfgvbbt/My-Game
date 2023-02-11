@@ -8,7 +8,7 @@ function httpGet(theUrl)
  
 const all = eval(httpGet('https://raw.githubusercontent.com/dfgvbbt/My-Game/main/Js/List%20Random/Music'))
 
-  const randomnumber = Math.round(Math.random() * all.length);
+  const randomnumber = Math.round(Math.random() * all.length)
 var src = all[randomnumber]
 
 if ( (typeof(all[randomnumber])) == "string") {
