@@ -17,6 +17,7 @@ return function (Callback) {
 }
 return  [
    'https://cdn.discordapp.com/attachments/1020666996834189393/1073825996710608967/Di_Young_-_Pixel_Pig_320_kbps.mp3',
+   'https://cdn.discordapp.com/attachments/1020666996834189393/1094457045035532390/Capybara_-_Capybara_TikTok_Song_320_kbps.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1051707067209109564/Bitonal_Landscape-Supa_Pawa_Drift_Clash_OST.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035179862408839328/Jensation_Delicious_NCS_Release.mp3',
   'https://cdn.discordapp.com/attachments/1020666996834189393/1035179029587820565/Halvorsen_Wouldnt_Change_It_NCS_Release.mp3',
