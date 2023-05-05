@@ -19,7 +19,7 @@ local ListScript = {
 	['Universe-Reset'] = 'require(6649537798).UniverseReset()',
 	['Magic-8ball'] = {'R6','require(6438191748).load(%q)'},
 	['Fight-Mode'] = {'R6','require(6438401832).load(%q)'},
-	['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")',Desc = 'I Was Think This Is VietNam :O'},
+	['Soviet-Map'] = {'R6','require(5599692266).load("sovyetmap")',Desc = ':O'},
 	['Dacar'] = {'require(6732268744).dababy(%q)',Desc = 'Les goooooooo'},
 	['Red-Army'] = {'R6','require(5651194344).load(%q)',Desc = 'Less Fight :D'},
 	['Stand'] = {'require(4902600443)("TW" ,%q)',Desc = 'Im Not Good About Dio Or Something ;-;'},
