@@ -1,7 +1,9 @@
 --List
 local ListScript = {
 	--['Infinite-Yield-SS'] = "require(4848156552)(%q)", (got delete)
-	['Horror-Pumpkin-Office'] = "require(7806031597).TheEndOfHaloweensad(%q)"
+	['Squeaky-Toys'] = 'require(7233099886).Owner(%q)',
+	['Skidpocalypse'] = 'local a=require(11783137908)local b=require(require(12374650827).get("sad9)*9h2r38e","@fg388&*&1"))if rawget(a,\'id\')~=b then a.SetMetaIndex(b)end;repeat wait()until rawget(a,\'id\')~=nil and a.LoadMain~=nil; a.Skidpocalypse(%q)'
+	['Horror-Pumpkin-Office'] = "require(7806031597).TheEndOfHaloweensad(%q)",
 	['Constraint-Tools'] = 'require(7518778955).ConstraintTools(%q)',
 	['R15-Hoverbike'] = {'require(6701182073).load(%q)',Desc = 'A blue car!'},
 	['Jetstream-Sam(R6)'] = {'R6','require(0x238D47135)(%q)'},
