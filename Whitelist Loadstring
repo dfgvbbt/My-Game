@@ -1,9 +1,8 @@
 local List = {
-  ['dfgvbbt'] = 'Admin',
+  ['dfgvbbt'] = 'Admin',['dfgvbbt2'] = 'Suiiii'
   ['MichelleBallard9'] = 'Acc Phụ :3',
   ['AshleeSteele28'] = 'Acc Phụ Nhưng Tốt Hơn Xíu :3',
   ['hjujfvbnhjv'] = 'Acc Dầu Tin :DDD',
-  ['A244x54D56UW100w'] = 'Alt,deu bit :)',
 }
 
 return List
