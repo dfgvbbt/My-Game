@@ -1,5 +1,5 @@
 function ret(){
-  let idk = ["115.77","171.234.15","1.55.176"]
+  let idk = ["115.77","171.24"]
    return idk
  }
 
